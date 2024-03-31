@@ -18,9 +18,9 @@ pipeline {
                 echo "Delivered"
             }
         }
-        stage('Complete'){
+        stage('MultiBranch'){
             steps{
-                echo "Job complete"
+                echo "Multi Branch Set-Up"
             }
         }
     }
